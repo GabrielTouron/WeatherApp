@@ -1,0 +1,82 @@
+.clear{
+    background-image: url(../Weather/assets/blue_sky.jpeg);
+}
+
+.cloud{
+    background-image: url(../Weather/assets/unnamed.jpeg);
+}
+
+.snow{
+    background-image: url(../Weather/assets/snow.jpeg);
+}
+
+.rain{
+    background-image: url(../Weather/assets/rainy.jpeg);
+}
+
+
+
+
+body {
+    background-image: url(../Weather/assets/blue_sky.jpeg);
+  font-family: Amatic SC, Caveat;
+  text-align: center;
+  height: 100vh;  
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+h1{
+
+    font-size: 3em;
+    position:relative;
+    color: grey;
+}
+
+i.wi{
+
+    font-size: 2.5em;
+    color: grey;
+}
+
+h2{
+    font-size: 2em;
+    color:grey;
+}
+
+.tooltip{
+
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    left:30px;
+    color:#fff;
+    background-color: #222;
+    border-radius: 7px ;
+    padding: 10px;
+    font-size: 12px;
+    transition: opacity 3s, top .5s;
+  
+}
+
+h1:hover .tooltip {
+
+    top: -50px;
+    opacity: 1;
+    left:30px;
+
+
+
+
+
+}
+
+
+
+
+
